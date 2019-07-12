@@ -13,3 +13,4 @@ _app/plugins
 # but, by its presence, keeps the folder in the repo.
 
 .idea/
+.DS_Store
