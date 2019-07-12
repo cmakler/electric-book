@@ -286,7 +286,7 @@ $web-reset-sequences: true !default; // This should stay last in the @import lis
 @import "partials/web-questions";
 
 // KineticGraphs
-@import "partials/web-kg";
+@import "kg-partials/web-kg";
 
 // Docs
 @import "partials/web-docs";
