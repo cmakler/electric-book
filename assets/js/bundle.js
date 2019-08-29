@@ -22,7 +22,6 @@ layout: null
     {% include_relative mcqs.js %}
     {% include_relative tables.js %}
     {% include_relative footnote-popups.js %}
-    {% include_relative kg.0.1.4.js %}
 
     {% if site.data.settings.web.svg.inject == true %}
         {% include_relative svg-inject.min.js %}
