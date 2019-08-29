@@ -55,7 +55,7 @@ output as a code block by kramdown.{% endcomment %}
             {% comment %}Get the graph if in _kg.{% endcomment %}
             {% assign kg-data-file = include.graph | split: "." | first %}
             {% if kg-graph-location == '_kg' %}
-                src="{{ path-to-root-directory }}kg/graphs/{{ include.graph }}.yaml"
+                src="{{ path-to-root-directory }}kg/graphs/{{ include.graph }}.yml"
             {% endif %}>
 
             {% comment %}Get the graph if it's in _data.{% endcomment %}
